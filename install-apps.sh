@@ -32,7 +32,10 @@ echo "# Update repositories:                #"
 echo "#######################################"
 echo
 
+echo "##### Apt update:                 #####"
 sudo apt update
+
+echo "##### Apt-get update:             #####"
 sudo apt-get update
 
 echo
@@ -41,16 +44,25 @@ echo "# Install apps from snap:             #"
 echo "#######################################"
 echo
 
-## Install IntelliJ IDEA:
+echo "##### Install IntelliJ IDEA:      #####"
 sudo snap install intellij-idea-community --classic
-## Install Visual Studio Code:
+echo
+
+echo "##### Install Visual Studio Code: #####"
 sudo snap install vscode --classic
-## Install Chromium:
+echo
+
+echo "##### Install Chromium:           #####"
 sudo snap install chromium --classic
-## Install Node:
+echo
+
+echo "##### Install Node:               #####"
 sudo snap install node --channel=11/stable --classic
-## Install AWS Client:
+echo
+
+echo "##### Install AWS Client:         #####"
 sudo snap install aws-cli --classic
+echo
 
 echo
 echo "#######################################"
@@ -58,18 +70,29 @@ echo "# Install apps from apt:              #"
 echo "#######################################"
 echo
 
-## Install Curl:
+echo
+echo "##### Install Curl:               #####"
 sudo apt install -y curl
-## Install Vim:
-sudo apt install -y vim
-## Install Git:
-sudo apt install -y git
+echo
 
-## Install Open JDK 11:
+echo
+echo "##### Install Vim:                #####"
+sudo apt install -y vim
+echo
+
+echo
+echo "##### Install Git:                #####"
+sudo apt install -y git
+echo
+
+echo
+echo "##### Install Open JDK 11:        #####"
 sudo apt-get install -y openjdk-11-jdk && \
 	sudo update-alternatives --config java
+echo
 
-## Install Docker:
+echo
+echo "##### Install Docker:             #####"
 ## 1. Use HTTPS
 sudo apt-get install -y \
 	apt-transport-https ca-certificates \
@@ -81,6 +104,7 @@ sudo add-apt-repository \
 	"deb [arch=amd64] https://download.docker.com/linux/ubuntu \
 	$(lsb_release -cs) \
 	stable"
+echo
 
 echo
 echo "#################################################################"
