@@ -116,7 +116,8 @@ echo "#################################################################"
 echo "# 1. Settings > Dock > Icon Size = 16                           #"
 echo "# 2. Settings > Background                                      #"
 echo "# 3. Add plugin IntelliJ IDEA Keybindings to Visual Studio Code #"
-echo "# 4. Add pluging Regex Plugin to InteliJ IDEA                   #"
+echo "# 4. Add plugin Regex Plugin to InteliJ IDEA                    #"
+echo "# 5. Add pugins: React Dev Tools, Redux Dev Tools to Chrome     #"
 echo "#################################################################"
 echo 
 
