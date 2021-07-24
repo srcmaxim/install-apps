@@ -1,6 +1,6 @@
 choco install intellijidea-community -y
-choco install microsoft-windows-terminal -y
 choco install pycharm-community -y
+choco install python -y
 choco install vscode -y
 choco install nodejs -y
 choco install awscli -y
